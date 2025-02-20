@@ -54,6 +54,13 @@ Saída: 1, 3, 5, 8, 9
 */
 
 //1.
+console.log("\n----------------------Atividade 2-----------------------");
+const imparpar = (num) => {
+  return num % 2 == 0 ? "O número é par" : "O número é ímapar";
+};
+console.log(imparpar(10));
+console.log(imparpar(5));
+console.log(imparpar(2));
 
 //2.
 console.log("\n----------------------Atividade 2-----------------------");
@@ -81,9 +88,8 @@ let numeros = [10, 20, 30, 40];
 let soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
 console.log("A soma de todos os numeros é:", soma);
 
+//5.
 console.log("\n----------------------Atividade 5-----------------------");
-var numeroz = [8, 3, 5, 1, 9];
+const numeroz = [8, 3, 5, 1, 9];
 console.table(numeroz);
-
-numeroz.sort();
-console.table(numeroz);
+console.log(numeroz.sort());

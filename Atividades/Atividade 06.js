@@ -1,6 +1,6 @@
-/***************************************************** 
+/*************************************************** 
                 Lista de Exercícios 
-*****************************************************/
+*******************************************************/
 
 /*1. Crie uma função que receba a idade de uma pessoa e retorne uma mensagem informando se ela pode votar no Brasil
 Regras para votar no Brasil:

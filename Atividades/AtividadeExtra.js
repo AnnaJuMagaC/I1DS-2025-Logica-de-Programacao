@@ -111,7 +111,7 @@ var conta = prompt ("Informe sua conta");
 var saldo =prompt ("Informe seu saldo:");
 console.log(`Olá ${nome}! Seu banco ${banco} numero de conta: ${conta} | seu saldo é ${saldo}`)*/
 
-var contador = 1;
+/*var contador = 1;
 while (contador <= 5) {
   let gasto = Math.random() * 100; //Valor aleatório entre 0 e 99.999...
   saldo -= gasto;
@@ -123,3 +123,33 @@ console.log(
     2
   )}`
 );
+
+/*********************************************************************** 
+    Lista de Exercícios – Lógica de Programação em JavaScript (Console)
+ ************************************************************************/
+
+/*
+    Supondo que a população de um país A seja de a habitantes com uma taxa anual de crescimento de 3% e que a população de um país B seja de b habitantes, com uma taxa anual de crescimento de 1,5%. Fazer um algoritimo que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas essas taxas de crescimento
+    */
+
+//Definir a população A e a população B; População A cresce 3% a cada ano; população B cresce 1.5% a cada ano;
+
+var a = 800000;
+var b = 950000;
+var ano = 0;
+
+while (a < b) {
+  ano++;
+  a += (a * 3) / 100;
+  b += (b * 1.5) / 100;
+  console.log(
+    `Ano: ${ano} | População A: ${Math.round(a)} | População B: ${Math.round(
+      b
+    )}`
+  );
+}
+console.log(
+  `A quantidade de anos para a população A superar ou igualar a B é de ${ano}`
+);
+
+//Math.round = arredondar o número

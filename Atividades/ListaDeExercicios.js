@@ -246,11 +246,15 @@ console.log(frase.toUpperCase(frase));
 
 //20.
 console.log("\n---------------Atd 20--------------------");
+var texto = `A vida é bela e cheia de desafios`;
+console.log(`O texto ${texto} tem oito palavras`);
+//Sorry teacher não sabia
 
 //------------------------------------------------PARTE 5-----------------------------------------------------
 
 //21.
 console.log("\n---------------Atd 21--------------------");
+var array = [12, 45, 67, 89, 23];
 
 //22.
 console.log("\n---------------Atd 22--------------------");
@@ -263,3 +267,4 @@ console.log("\n---------------Atd 24--------------------");
 
 //25.
 console.log("\n---------------Atd 25--------------------");
+var vetor = [5, 10, 7, 2, 7];
